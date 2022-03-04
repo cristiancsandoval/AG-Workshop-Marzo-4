@@ -6,10 +6,7 @@ const AppBici = () => {
   return (
     <div>
       <Navbar/>
-
       <RouterBici/>
-
-
     </div>
   )
 }
