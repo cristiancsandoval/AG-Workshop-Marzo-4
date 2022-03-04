@@ -29,7 +29,7 @@ const Login = () => {
         />
 
         <label>Contraseña</label>
-        <label
+        <input
           type="password"
           placeholder="Password"
           name="password"
