@@ -7,6 +7,8 @@ const AppBici = () => {
     <div>
       <Navbar/>
       <RouterBici/>
+
+
     </div>
   )
 }
