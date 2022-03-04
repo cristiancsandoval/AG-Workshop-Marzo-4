@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Registro from '../components/Registro'
 import RouterBici from '../Router/RouterBici'
 
 const AppBici = () => {
@@ -7,6 +8,7 @@ const AppBici = () => {
     <div>
       <Navbar/>
       <RouterBici/>
+      <Registro/>
     </div>
   )
 }

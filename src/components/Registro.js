@@ -1,9 +1,9 @@
 import React from 'react'
 import { useForm } from '../hooks/useForm'
-import { useDispatch } from 'react-redux';
+// import { useDispatch } from 'react-redux';
 
 const Registro = () => {
-  const dispatch = (useDispatch)
+  // const dispatch = (useDispatch)
 
   const [values, handleInputChange, reset] =useForm({
     nombre:'',
@@ -14,7 +14,7 @@ const Registro = () => {
 const {nombre, correo, pass} = values
 const handleSubmitRegistro =(e) =>
 e.prevenDefault();
-dispatch((nombre,correo,pass))
+// dispatch((nombre,correo,pass))
 reset ()
 
 
