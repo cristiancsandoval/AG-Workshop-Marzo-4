@@ -20,7 +20,11 @@ export const NavBarLi = styled.a`
  justify-content: space-between;
  display:inline-block;
  padding:3rem;
- font-weight: 800; 
+ font-weight: 750; 
+ text-decoration: none;
+color: black;
+font-family: "Raleway",sans-serif;
+font-size: 19px;
 
 `
 export const NavBarUl = styled.ul`
