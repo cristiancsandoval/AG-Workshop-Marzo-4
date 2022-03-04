@@ -4,3 +4,9 @@ export const typesBicis = ({
     borrar: "borrar",
     editar: "editar"
 })
+
+export const types = ({
+    login: "login",
+    logout: "logout",
+    register: "register"
+})
