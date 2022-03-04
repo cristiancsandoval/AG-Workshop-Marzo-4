@@ -1,0 +1,14 @@
+/*Documento general de estilos*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --naranja: #EA5C2B;
+    --naranja-claro: #FF7F3F;
+    --amarillo: #F6D860;
+    --verde: #95CD41
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
