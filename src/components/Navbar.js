@@ -8,9 +8,10 @@ const Navbar = () => {
       <NavBar>
       <ImgLogo src="https://i.ibb.co/YyMrv5z/plantilla-logotipo-bicicleta-simple-139869-81.webp" alt="" ></ImgLogo>
       <NavBarUl>
-        <NavBarLi id='home' >Home </NavBarLi>
-        <NavBarLi id='login'> Login </NavBarLi>
-        <NavBarLi id='fregistro'> Registro </NavBarLi>
+      <NavBarLi href="#">Home</NavBarLi>
+      <NavBarLi href="#">Login</NavBarLi>
+      <NavBarLi href="#">Registro</NavBarLi>
+        
       </NavBarUl>
     </NavBar>
 
