@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import styled from "styled-components"
 
 export const NavBar =styled.div` 
@@ -19,4 +17,10 @@ export const NavBarUl = styled.ul`
 
 export const NavBarLi = styled.li`
 `
->>>>>>> 6587eb624b40dcb0aef16964ed64cce64b78c1ca
+
+export const CntrHome = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`
