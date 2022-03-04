@@ -7,12 +7,6 @@ const AppBici = () => {
     <div>
       <Navbar/>
       <RouterBici/>
-=======
-<<<<<<< HEAD
-      <RouterBici/>
-
-
->>>>>>> 8cfb1a006bc8c5df007e17b22c373460be96f7da
     </div>
   )
 }
