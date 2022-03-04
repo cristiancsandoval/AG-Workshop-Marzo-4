@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
 import AppBici from './containers/AppBici';
 import './style/index.css'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider >
     <AppBici/>
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
