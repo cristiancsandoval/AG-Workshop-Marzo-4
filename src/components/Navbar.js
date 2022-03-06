@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <NavBar>
-      <ImgLogo src="https://i.ibb.co/YyMrv5z/plantilla-logotipo-bicicleta-simple-139869-81.webp" alt="" ></ImgLogo>
+      <ImgLogo src="https://i.ibb.co/YyMrv5z/plantilla-logotipo-bicicleta-simple-139869-81.webp" alt="logo bici" ></ImgLogo>
       <NavBarUl>
       <NavBarLi href="/src/components/Home.js">Home</NavBarLi>
       <NavBarLi href="#">Login</NavBarLi>
